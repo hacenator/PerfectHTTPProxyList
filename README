@@ -1,1 +1,9 @@
-This file was created by PyCharm 1.5.2 for binding GitHub repository
+HTTP Proxy list grabber
+
+This script grab and check HTTP proxys from spys.ru.
+
+Example:
+from PerfectHTTPProxyList import proxy
+
+list = proxy.getProxyList()
+print list
